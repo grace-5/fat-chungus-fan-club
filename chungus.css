@@ -1,0 +1,12 @@
+body {
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+    background-color: rgb(255, 45, 171);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
