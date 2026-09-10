@@ -1,1 +1,1 @@
-Fat Chungus © is owned by drexnguyen.
+© 2026 Fat Chungus
