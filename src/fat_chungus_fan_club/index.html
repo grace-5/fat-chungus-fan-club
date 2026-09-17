@@ -25,9 +25,9 @@
         <h1>bₑcₒₘₑ ₒₙₑ ₒf ᵤₛ</h1>
         <form id=form>
           <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname" value="First"><br>
+          <input type="text" id="fname" name="fname" value="First" pattern="[A-Za-zÀ-ÿ\s'\-]+" title="Please enter a valid name using letters, spaces, hyphens, or apostrophes." required><br>
           <label for="lname">Last name:</label><br>
-          <input type="text" id="lname" name="lname" value="Last"><br><br>
+          <input type="text" id="lname" name="lname" value="Last" pattern="[A-Za-zÀ-ÿ\s'\-]+" title="Please enter a valid name using letters, spaces, hyphens, or apostrophes." required><br><br>
           <input type="submit" value="Submit">
         </form> 
         <footer>
