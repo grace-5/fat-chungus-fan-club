@@ -28,6 +28,28 @@ img {
     margin: 0 auto; 
 }
 
+.base-image {
+    display: block;
+    height: 400px;
+    margin: 0 auto; 
+}
+
+.top-image {
+    position: absolute;
+    top: 50%;        
+    left: 50%;      
+    transform: translate(-50%, -50%); 
+    height: 600px;
+    z-index: 10; 
+    margin: 0 auto; 
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
 #explode-hidden {
     display: none;
 }

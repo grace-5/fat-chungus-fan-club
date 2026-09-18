@@ -2,8 +2,8 @@
 function explodeChungus() {
     document.getElementById('explode-hidden')
         .style.display = "block";
-    document.getElementById('explode-button')
-        .style.display = "none";
+    explode = document.getElementById('explode-hidden');
+    explode.src = "img/explode.gif";
 }
 
 parent = document.getElementById('form');
