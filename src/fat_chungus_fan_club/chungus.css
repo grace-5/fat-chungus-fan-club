@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Courier New', monospace;
     color: white;
@@ -6,8 +7,12 @@ body {
     margin-right: 5%;
 }
 
+h1, h3 {
+    text-shadow: 0.15rem 0.15rem #2d08ff;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
 }
 
@@ -18,30 +23,35 @@ footer {
     color: rgb(255, 255, 255);
     /* background-color: #f9f9f9; */
 }
+
 footer p {
-    display: block; 
+    display: block;
     margin: 0 auto;
 }
 
+.change-color{
+    filter: invert(15%) sepia(100%) saturate(7000%) hue-rotate(245deg);
+}
+
 img {
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
 }
 
 .base-image {
     display: block;
-    height: 400px;
-    margin: 0 auto; 
+    height: 25rem;
+    margin: 0 auto;
 }
 
 .top-image {
     position: absolute;
-    top: 50%;        
-    left: 50%;      
-    transform: translate(-50%, -50%); 
-    height: 600px;
-    z-index: 10; 
-    margin: 0 auto; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 37.5rem;
+    z-index: 10;
+    margin: 0 auto;
 }
 
 .image-container {
@@ -56,12 +66,37 @@ img {
 
 #explode-button {
     display: block;
-    margin: 0 auto; 
-    padding: 5rem; 
-    font-size: 6rem; 
+    margin: 0 auto;
+    padding: 5rem;
+    font-size: 6rem;
     font-weight: 900;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     color: #FFFFFF;
     background-color: #2d08ff;
-    border: none; 
+    border: none;
+}
+
+form {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+input {
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: #2d08ff;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.85;
 }
